@@ -2,4 +2,4 @@
 
 require 'rbd'
 
-load "#{Dir.pwd}/main.rb"
+Rbd::Cli.new.run!
